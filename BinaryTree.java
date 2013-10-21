@@ -1,5 +1,5 @@
 public class BinaryTree {
-
+    
 	Node root;
 
 	public BinaryTree()
@@ -33,7 +33,7 @@ public class BinaryTree {
 		preOrderTraversal(root);
 		
 	}
-	
+    /*Dont need to add delete? coz were not deleting ? lol*/	
 	public String toString()
 	{
 		return "Key: " + root.key + "Token : " + root.data[0] + " Type: " + root.data[1]; 		
